@@ -1,4 +1,4 @@
-import { statusMap } from "../maps/statusMap.js";
+import { statusMap } from "../maps/statusMap";
 
 // 모듈화. 사용자 UI와 React key 구현.
 export function buildOrdersUI(orders) {
