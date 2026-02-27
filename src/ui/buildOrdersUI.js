@@ -17,3 +17,5 @@ export function buildOrdersUI(orders) {
     };
   });
 }
+
+// 데이터를 UI형태로 가공하는 함수
