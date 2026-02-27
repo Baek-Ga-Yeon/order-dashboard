@@ -3,4 +3,4 @@ export const orders = [
   { id: 2, status: "unpaid", price: 12000, customer: "서환" },
   { id: 3, status: "cancelled", price: 45000, customer: "이지" },
 ];
-// 임시데이터(DB가 아직 없어서. 프론트에서 연습용. 나중에 삭제 예정.)
+// 프론트 더미 데이터
