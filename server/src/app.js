@@ -8,10 +8,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get("/test", (req, res) => {
+app.get("/orders", (req, res) => {
   res.status(200).send("완료");
 });
-
+// 라우터 연결
 const PORT = Number(process.env.PORT || 4000);
 
 app.listen(PORT, () => {
